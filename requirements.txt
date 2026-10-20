@@ -1,0 +1,20 @@
+# Core data stack (tested on Python 3.14; pandas 3.x needs Python 3.11+)
+numpy==2.5.4
+pandas==3.0.6
+
+# Visualization
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+
+# App
+streamlit==1.66.0
+
+# Notebook
+jupyter==1.1.1
+ipykernel==7.4.0
+nbconvert==7.17.2
+nbformat==5.11.1
+
+# Static PNG export of the Plotly map (uses a local Chrome/Chromium)
+kaleido==1.5.0

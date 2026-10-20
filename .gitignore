@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Data: the World Bank CSVs are small (~255 KB) and are committed.
+# Ignore any large extra raw files (>50 MB) by dropping them in this folder:
+data/raw/large/
+*.parquet
+*.zip
+
+# Local Claude Code / editor tooling
+.claude/
